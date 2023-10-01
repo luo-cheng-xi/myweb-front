@@ -7,6 +7,10 @@ export default createRouter({
         {
             path: '/',
             component: Home
+        },
+        {
+          path:'/square',
+          component: Square
         }
     ]
 })
