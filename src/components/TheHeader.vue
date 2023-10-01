@@ -26,6 +26,10 @@
           </a>
         </li>
       </ul>
+      <a class="user" href="#">
+        <img src="../assets/default-avatar.jpg" alt="">
+        <span> 用户名 </span>
+      </a>
       <ul class="logo-link-list">
         <li>
           <a class="logo-link" href="#">
@@ -43,9 +47,7 @@
           </a>
         </li>
       </ul>
-      <a class="user">
-        <div class="user-avatar"></div>
-      </a>
+
     </nav>
   </div>
 
@@ -92,18 +94,32 @@
 }
 .logo-link-list {
   float: right;
+  vertical-align: center;
   li {
     list-style: none;
     float: right;
   }
   & .logo-link {
+    font-size: 36px;
     color: white;
     text-decoration: none;
     margin-right: 44px;
   }
 }
 .user {
-
+  float: right;
+  color: white;
+  text-decoration: none;
+  img {
+    margin-top: 7px;
+    float: left;
+    height: 60px;
+    border-radius: 50%;
+  }
+  span {
+    vertical-align: middle;
+    margin-left: 20px;
+  }
 }
 
 </style>
