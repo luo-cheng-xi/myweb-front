@@ -22,7 +22,7 @@ import HomeComponentsLeaderButton from "../components/buttons/SquareLeaderButton
   padding: 0;
   margin: 0;
 }
-// 作用于routr-link，因为router-link会创建一个a标签
+/* 作用于router-link，因为router-link会创建一个a标签  */
 a {
   text-decoration: none;
 }
