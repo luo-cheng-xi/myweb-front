@@ -3,6 +3,7 @@ defineProps({
   text: String,
   color:String,
 })
+
 </script>
 
 <template>

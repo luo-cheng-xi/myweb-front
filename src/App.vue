@@ -3,27 +3,36 @@ import TheHeader from "./components/TheHeader.vue";
 </script>
 
 <template>
-  <header>
-    <TheHeader/>
-  </header>
-  <main>
-    <router-view/>
-  </main>
-  <footer>
-    footer
-  </footer>
+  <div class="background">
+    <header>
+      <TheHeader/>
+    </header>
+    <main>
+      <router-view/>
+    </main>
+    <footer>
+      footer
+    </footer>
+
+  </div>
+
 </template>
 
 <style scoped>
 
-  header,footer {
-    background-color: #212121;
-  }
-  main {
-    background-color: #242424;
-  }a
-  header {
-    border-bottom: 1px solid #7f7f7f;
-  }
+.background {
+  color: white;
+  min-width: 1200px;
+  min-height: 1005px;
+  background-color: #242424;
+}
+
+header, footer {
+  background-color: #212121;
+}
+
+main {
+  background-color: #242424;
+}
 
 </style>
