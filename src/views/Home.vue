@@ -11,7 +11,7 @@ import HomeComponentsLeaderButton from "../components/buttons/SquareLeaderButton
       <p style="font-size: 30px;margin-top: 10px">这是我闲着无聊做的网站。</p>
       <p style="font-size: 40px;margin-top: 10px"> 我想聪明如您肯定会发现这玩意做得稀烂(悲😭</p>
     </div>
-    <router-link style="margin-top: 80px" to="/">
+    <router-link style="margin-top: 80px" to="/Square">
       <HomeComponentsLeaderButton text="看看我做的小玩意" color="#41b682"/>
     </router-link>
   </div>
@@ -21,6 +21,10 @@ import HomeComponentsLeaderButton from "../components/buttons/SquareLeaderButton
 * {
   padding: 0;
   margin: 0;
+}
+// 作用于routr-link，因为router-link会创建一个a标签
+a {
+  text-decoration: none;
 }
 .background {
   display: block;
